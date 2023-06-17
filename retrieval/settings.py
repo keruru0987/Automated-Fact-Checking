@@ -1,0 +1,12 @@
+seed = 17
+model_name = "roberta-base"
+model_path = "ret"
+using_pre_model = 1
+batch_size = 2
+epoch_times = 10
+accumulate_step = 2
+eval_frequency = 20
+retrieval_num = 3
+evidence_nums = 64
+generate_neg_num = 15
+learning_rate = 2e-7
